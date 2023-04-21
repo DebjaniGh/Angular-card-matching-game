@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+import { ANIMALS } from '../../models/animals';
+
+@Component({
+  selector: 'app-game1',
+  templateUrl: './game1.component.html',
+  styleUrls: ['./game1.component.css']
+})
+export class Game1Component implements OnInit {
+  animals = ANIMALS;
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
